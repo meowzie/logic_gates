@@ -1,5 +1,3 @@
-require 'pry-byebug'
-
 def input_checker(array)
   array.all? { |item| item.is_a?(TrueClass) || item.is_a?(FalseClass) }
 end
